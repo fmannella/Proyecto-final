@@ -41,6 +41,7 @@ main{
 .tx-acerca{
     text-align: start;
     margin-left: 20px;
+    padding: 16px 0;
 }
 .trabajos{
     background-color: black;
