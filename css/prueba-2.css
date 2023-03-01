@@ -1,0 +1,84 @@
+body{
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden!important;
+    background-color: black;
+}
+
+main{
+    background-color: transparent;
+    background-image: url(../image/fondo.jpg);
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo{
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+  }
+  
+.subtitulo{
+    font-family: 'Open Sans', sans-serif;}
+
+.nav{
+  background-color: transparent !important;
+
+}
+.material-symbols-outlined{
+    text-align: center;
+    color: white;
+}
+
+.acerca-de-mi{
+    background-color: black;
+
+}
+
+.tx-acerca{
+    text-align: start;
+    margin-left: 20px;
+}
+.trabajos{
+    background-color: black;
+}
+
+h2.acerca{
+    text-decoration: underline;
+}
+.progress-value{
+    color: black;
+}
+
+.h4-about-title{
+    color: #f5c21d;
+    font-family: 'Playfair Display', serif;
+    font-size:small;
+    
+}
+.contacto{
+    text-align: start;
+    background-color: black;
+}
+
+.texto-contacto{
+    margin-left: 20px; 
+    font-family: 'Open Sans', sans-serif;
+}
+.lulu{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: aliceblue;
+}
+footer{
+    background-color: black;
+}
+
+.logos{
+    height: 30px;
+    width: 30px;
+
+}
