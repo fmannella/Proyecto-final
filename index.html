@@ -10,15 +10,20 @@
     <link rel="stylesheet" href="css/bootstrap.min.css"
 
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Playfair+Display:wght@700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Playfair+Display:wght@700&display=swap"/>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
     
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 
+    
+
+
 </head>
 <body>
+  <!--Portada-->
     <main>
+      <!--Navbar-->
         <div class="conteiner-fluid" id="inicio">
             <nav class="navbar navbar-expand-lg">
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,14 +31,22 @@
               </button>
               <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav text-white">
-                  <a class="nav-item nav-link text-white" href="#">Acerca de mí</a>
-                  <a class="nav-item nav-link text-white" href="#">Trabajos</a>
-                  <a class="nav-item nav-link text-white" href="#">Contacto</a>
+                  <style>
+                    .nav-item:hover{
+                    color: #f5c21d !important;
+                    cursor: pointer;
+                   }
+                  </style>
+                  <a class="nav-item nav-link text-white" href="#acerca-de-mi">Acerca de mí</a>
+                  <a class="nav-item nav-link text-white" href="#trabajos">Trabajos</a>
+                  <a class="nav-item nav-link text-white" href="#contacto">Contacto</a>
                   <a class="nav-item nav-link text-white" href="#"> </a>
                   <a class="nav-item nav-link text-white" href="#"> </a>
                 </div>
               </div>
             </nav>
+            <script src="js/bootstrap.min.js"></script>
+            <!--Titulo-->
             <div class="conteiner">
                 <div class="row">
                   <div class="col-6 d-none d-sm-block offset-md-1 text-white">
@@ -56,9 +69,10 @@
                   <span class="material-symbols-outlined">
                     expand_more
                     </span>
+                  <!--Portada para celulares-->
                   <div class="col d-block d-sm-none">
                       <div class="celulares">
-                         <div class="text-center">
+                         <div class="text-center text-white">
                             <h1 class="titulo">
                                <br>
                                 MOMO 
@@ -82,42 +96,116 @@
                  </div>
         </div>
     </main>
+   <!--Acerca de Mí-->
     <div class="conteiner acerca-de-mi">
+      <!---->
            <div class="tx-acerca col-md-6">
-            <br>
+            <a name="acerca-de-mi"><br></a>
             <br>
             <br>
               <h4 class="h4-about-title">Acerca de mí</h4>
               <br>
-              <h2 class="lulu">Lulu Pereyra</h2>
+              <h2 class="lulu">Momo Fantasy</h2>
               <br>
               <h4 class="h4-about-title">Buenos Aires, Argentina</h4>
               <br>
               <br>
               <br>
-
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt iusto dolorum, enim, placeat nemo dolore eos rerum dolores similique fugit eius aspernatur cumque, aliquam accusamus quidem sequi aliquid nisi quaerat? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro odit nihil, repellendus eos natus sed, eligendi aliquam, facere assumenda dicta vitae adipisci. Corporis eos quia iusto facere recusandae! Iure, reiciendis?</p>
+                <p class="texto-acercademi">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt iusto dolorum, enim, placeat nemo dolore eos rerum dolores similique fugit eius aspernatur cumque, aliquam accusamus quidem sequi aliquid nisi quaerat? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro odit nihil, repellendus eos natus sed, eligendi aliquam, facere assumenda dicta vitae adipisci. Corporis eos quia iusto facere recusandae! Iure, reiciendis?</p>
                 <br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum blanditiis, necessitatibus quia eveniet, adipisci earum iste dignissimos praesentium eos debitis neque magni id eaque inventore deserunt vero, repudiandae doloremque dolorem.</p>
+                <p class="texto-acercademi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum blanditiis, necessitatibus quia eveniet, adipisci earum iste dignissimos praesentium eos debitis neque magni id eaque inventore deserunt vero, repudiandae doloremque dolorem.</p>
                 <br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis facilis laborum reiciendis, fugit quia voluptas iste possimus sequi error repellendus nulla quas. Veniam iste voluptatibus incidunt eaque neque. Molestias, tempora.</p>
-
-
+                <p class="texto-acercademi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis facilis laborum reiciendis, fugit quia voluptas iste possimus sequi error repellendus nulla quas. Veniam iste voluptatibus incidunt eaque neque. Molestias, tempora.</p>
            </div>
-         <script src="java-2.js"></script>
+         <script src="java.js"></script>
     </div>
+    </div>
+    <!--Trabajos-->
     <div class="conteiner-fluid trabajos">
-        <h2 class="h4-about-title">Trabajos</h2>
-        <h2>Selected work that has been created with the help of many.</h2>
-        
+      <a name="trabajos"><br></a>
+      <br>
+        <h2 class="h4-about-title col-md-8">Trabajos</h2>
+        <h2 class="texto-trabajo col-md-8">A continuacion mostraré mis 3 versiones de páginas:</h2>
 
+    <div id="cards_landscape_wrap-2">
+      <div class="container">
+          <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                  <a href="">
+                      <div class="card-flyer">
+                          <div class="text-box">
+                              <div class="image-box">
+                                  <img src="image/pag version 1.jpg" alt="" />
+                              </div>
+                              <div class="text-container">
+                                  <h6>Version 1</h6>
+                                  <p>Primer proyecto</p>
+                                  <a href="https://fmannella.github.io/Proyecto-final/"><img  class="logos" src="image/github (2).png" alt="github"></a>
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                  <a href="">
+                      <div class="card-flyer">
+                          <div class="text-box">
+                              <div class="image-box">
+                                  <img src="image/pag.png" alt="" />
+                              </div>
+                              <div class="text-container">                                    
+                                  <h6>Version 2</h6>
+                                  <p>ever since the 1500s.</p>
+                                  <a href="https://fmannella.github.io/Proyecto-final/"><img  class="logos" src="image/github (2).png" alt="github"></a>
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                  <a href="">
+                      <div class="card-flyer">
+                          <div class="text-box">
+                              <div class="image-box">
+                                  <img src="image/pag version final.jpg" alt="" />
+                              </div>
+
+                              <div class="text-container">
+                                  <h6>Version final</h6>
+                                 <p>text ever since the 1500s.</p>
+                                 <a href="https://fmannella.github.io/Proyecto-final/"><img  class="logos" src="image/github (2).png" alt="github"></a>
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                  <a href="">
+                      <div class="card-flyer">
+                          <div class="text-box">
+                              <div class="image-box">
+                                  <img src="https://cdn.pixabay.com/photo/2018/03/30/15/12/dog-3275593_960_720.jpg" alt="" />
+                              </div>
+                              <div class="text-container">
+                                  <h6>Proyecto a futuro</h6>
+                                 <p>ever since the 1500s.</p>
+                                 <a href="https://github.com/fmannella"><img  class="logos" src="image/github (2).png" alt="github"></a>
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
         <br>
         <br>
         <br>
     </div>
+    <!--Contacto-->
     <div class="contacto">
         <div class="texto-contacto col-md-7">
-          <br>
+          <a name="contacto"><br></a>
           <br>
           <h4 class="h4-about-title">Contacto</h4>
           <br>
@@ -193,6 +281,7 @@
         </div>
        
     </div>
+    <!--Footer-->
     <footer class="text-center">
       <div class="conteiner">
         <div class="row">
@@ -204,8 +293,6 @@
           </div>
         </div>
       </div>
-      <br>
-      <br>
       <br>
       <br>
     </footer>
