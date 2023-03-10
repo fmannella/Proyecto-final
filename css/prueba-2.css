@@ -46,7 +46,7 @@ main{
     padding: 16px 0;
 }
 .trabajos{
-    background-color: black;
+    background-color: black !important;
 }
 
 h2.acerca{
@@ -59,11 +59,16 @@ h2.acerca{
 .h4-about-title{
     color: #f5c21d;
     font-family: 'Playfair Display', serif;
-    font-size:small;
-    
+    font-size:small; 
 }
 .texto-acercademi{
     color:rgb(189, 186, 186);
+}
+.titulo-trabajo{
+    color: #f5c21d;
+    font-family: 'Playfair Display', serif;
+    font-size:small;
+    margin-left: 20px; 
 }
 .texto-trabajo{
     margin-left: 20px; 
@@ -97,7 +102,6 @@ footer{
 }
 
   
-
   
   /*----  Main Style  ----*/
 #cards_landscape_wrap-2{
@@ -137,6 +141,10 @@ footer{
   -o-transform:scale(1.15);
   transform:scale(1.15);
 }
+
+#cards_landscape_wrap-2{
+  background: #000000;
+}
 #cards_landscape_wrap-2 .card-flyer .text-box{
   text-align: center;
 }
@@ -144,7 +152,7 @@ footer{
   padding: 30px 18px;
 }
 #cards_landscape_wrap-2 .card-flyer{
-  background: #FFFFFF;
+  background: #FFFFFf;
   margin-top: 50px;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
